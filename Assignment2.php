@@ -27,6 +27,14 @@ th, td {
     font-family: Arial, Helvetica, sans-serif;
 }
     
+th { background-color: beige; 
+    font-family: Tahoma, Comic sans-serif; 
+   }
+    
+@media (max-width: 1080px) { 
+    table { width: 80%; } 
+}
+    
 </style>
 </head>
 <body>
