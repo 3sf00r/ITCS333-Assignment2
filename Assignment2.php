@@ -34,7 +34,6 @@
             }
             ?>
 
-        <header>UOB Nationality Table</header>
 
     </main>
     
