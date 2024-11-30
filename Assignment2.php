@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <title>Assign_2 Stat Table</title>
     <link rel="stylesheet" href="https://unpkg.com/pico.css">
+
+<style>
+    
+* {
+ margin: auto;
+}
+ header {
+text-align: center;
+font-size: 57px;
+padding-top: 20px;
+}
+</style>
 </head>
 <body>
     <main>
