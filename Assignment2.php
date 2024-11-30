@@ -21,6 +21,12 @@ table {
     border-collapse: inherit;
     margin-top: 20px; 
 }
+th, td { 
+    border: 2px solid #ccc;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
 </style>
 </head>
 <body>
