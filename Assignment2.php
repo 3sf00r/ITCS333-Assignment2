@@ -7,46 +7,7 @@
 
 <style>
     
-* {
- margin: auto;
-}
- header {
-text-align: center;
-font-size: 57px;
-padding-top: 20px;
-}
-table { 
-    text-align: center;
-    width: 70%;
-    border-collapse: inherit;
-    margin-top: 20px; 
-}
-th, td { 
-    border: 2px solid #ccc;
-    padding: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-    
-th { background-color: beige; 
-    font-family: Tahoma, Comic sans-serif; 
-   }
-    
-@media (max-width: 1080px) { 
-    table {
-        width: 80%; 
-    } 
-}
-@media (max-width: 800px) {
-    header {
-            font-size: 28px;
-            }
-     table {
-            width:100% ;
-            font-size: 17px;
-            }
-        }
 
-    
 </style>
 </head>
 <body>
