@@ -32,8 +32,17 @@ th { background-color: beige;
    }
     
 @media (max-width: 1080px) { 
-    table { width: 80%; } 
+    table {
+        width: 80%; 
+    } 
 }
+@media (max-width: 800px) {
+     table {
+            width:100% ;
+            font-size: 17px;
+            }
+        }
+
     
 </style>
 </head>
