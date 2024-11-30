@@ -6,5 +6,12 @@
     <link rel="stylesheet" href="https://unpkg.com/pico.css">
 </head>
 <body>
+    <header>UOB Nationality Table</header>
+
+    <table>
+    <tr><th>Year</th><th>Semester</th><th>Program</th><th>Nationality</th><th>Number of Students</th></tr>
+
+        
+</table>
 </body>
 </html>
