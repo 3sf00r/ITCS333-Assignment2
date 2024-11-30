@@ -16,8 +16,17 @@
                 foreach ($data['results'] as $result) {
                     echo '<tr>';
                     echo '<td>' . $result['year'] . '</td>';
+                    echo '<td>' . $result['semester'] . '</td>'; 
+                    echo '<td>' . $result['the_programs'] . '</td>'; 
+                    echo '<td>' . $result['nationality'] . '</td>'; 
+                    echo '<td>' . $result['number_of_students'] . '</td>';
                     echo '</tr>';
                 }
+                echo '</table>';
+                }
+            else { 
+                echo 'Error retrieving data'; 
+            }
             ?>
 
         <header>UOB Nationality Table</header>
