@@ -12,7 +12,10 @@
             $response = file_get_contents($url);
             $data = json_decode($response, true);
             if ($data && isset($data['results'])) {
+                echo '<header>UOB Nationality Table</header>';
                 echo '<table>';
+                echo '<tr><th>Year</th><th>Semester</th><th>Program</th><th>Nationality</th><th>Number of Students</th></tr>';
+                
                 foreach ($data['results'] as $result) {
                     echo '<tr>';
                     echo '<td>' . $result['year'] . '</td>';
