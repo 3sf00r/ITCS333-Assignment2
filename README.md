@@ -1,2 +1,6 @@
-202100850 Ali Mohammded Alasfoor
-202103011 Ali Salman Ali 
+# ITCS333-Assignment2
+ITCS333 Sec-1
+Dr.Abdulla Subah
+Done By:
+Ali AlAsfoor - 202100850
+Ali Salman   - 202103011
