@@ -37,6 +37,9 @@ th { background-color: beige;
     } 
 }
 @media (max-width: 800px) {
+    header {
+            font-size: 28px;
+            }
      table {
             width:100% ;
             font-size: 17px;
