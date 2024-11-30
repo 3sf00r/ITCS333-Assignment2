@@ -15,6 +15,12 @@ text-align: center;
 font-size: 57px;
 padding-top: 20px;
 }
+table { 
+    text-align: center;
+    width: 70%;
+    border-collapse: inherit;
+    margin-top: 20px; 
+}
 </style>
 </head>
 <body>
