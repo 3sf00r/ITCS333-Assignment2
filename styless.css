@@ -1,42 +1,43 @@
 * {
-  margin: auto;
+  margin: auto;/* Centers all elements*/
 
 header {
-  text-align: center;
-  font-size: 57px;
-  padding-top: 20px;
+  text-align: center;/* Aligns text in the header to the center */
+  font-size: 57px;/* Sets the font size of the header to 57 */
+  padding-top: 20px;/* Adds 20pixle space above the header */
 }
 
 table { 
-  text-align: center;
-  width: 70%;
-  border-collapse: inherit;
-  margin-top: 20px; 
+  text-align: center;/* Centers the content of the table */
+  width: 70%;/* Sets the width of the table to 70% */
+  border-collapse: inherit;/* Ensures borders collapse into a single line */
+  margin-top: 20px; /* Adds 20 pixle space above the table */
 }
 
 th, td { 
-  border: 2px solid #ccc;
-  padding: 8px;
-  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #ccc; /* Adds a light gray border around table cells */
+  padding: 8px; /* Adds padding inside each table cell */
+  font-family: Arial, Helvetica, sans-serif; /* Sets the font for table cells */
 }  
 
 th {
-  background-color: beige; 
-  font-family: Tahoma, Comic sans-serif; 
+  background-color: beige; /* Set beige background for the table headers */
+  font-family: Tahoma, Comic sans-serif; /*font for table headers */
 }
-    
+    /*for screens with max-width of 1080px */
 @media (max-width: 1080px) { 
   table {
-    width: 80%; 
+    width: 80%; /* Increases table width to 80% on smaller screens */
   } 
 }
+  /*for screens with max-width of 800px */
 @media (max-width: 800px) {
   header {
-    font-size: 28px;
+    font-size: 28px; /* Reduces font size of the header to 28 */
   }
   table {
-    width:100% ;
-    font-size: 17px;
+    width:100% ; /* Makes the table full width on very small screens */
+    font-size: 17px; /* Reduces font size inside the table */
   }
 }
 
